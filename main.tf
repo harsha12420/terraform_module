@@ -1,4 +1,4 @@
-configure aws provider
+#configure aws provider
   provider "aws" {
   region = var.region
     access_key = "AKIAX4Z2ZM5SEGKTJ2TI"
