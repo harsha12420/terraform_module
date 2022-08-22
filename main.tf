@@ -1,8 +1,8 @@
-# # configure aws provider
-# provider "aws" {
-#     region = var.region
+configure aws provider
+  provider "aws" {
+  region = var.region
    
-# }
+}
 
  module "vpc" {
    source                  = "./modules/vpc"
