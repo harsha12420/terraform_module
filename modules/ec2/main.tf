@@ -1,4 +1,4 @@
-resource "aws_instance" "myweb" {
+resource "aws_instance" "web" {
   ami           = var.ec2_ami
   instance_type = var.ec2_type
   subnet_id =  var.subnet_id
@@ -11,6 +11,6 @@ resource "aws_instance" "myweb" {
   }
 }
 resource "aws_eip" "lb" {
-  instance = aws_instance.myweb.id
+  instance = aws_instance.web.id
   vpc      = true
 }
