@@ -1,5 +1,5 @@
 #configure aws provider
-  #provider "aws" {
+  provider "aws" {
   #region = var.region
     
 }
