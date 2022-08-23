@@ -6,7 +6,7 @@
 
  module "vpc" {
    source                  = "./modules/vpc"
-   region                  = var.region 
+   #region                  = var.region 
    vpc_name                = var.vpc_name
    vpc_cidr                = var.vpc_cidr
    public_subnet_az1_cidr  = var.public_subnet_az1_cidr
