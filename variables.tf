@@ -4,7 +4,7 @@
 variable "aws_region" {
   description = "AWS default region."
   type =  string
-  default     = "ap-south-1"
+  default     = "us-east-1"
 }
 
 variable "vpc_name" {
@@ -48,7 +48,7 @@ variable "security_group_name" {
 # EC2
 variable "ec2_ami" {
   type = string
-  default = "ami-006d3995d3a6b963b"
+  default = "ami-08d4ac5b634553e16"
 }
 variable "ec2_type" {
   default = "t2.micro"
